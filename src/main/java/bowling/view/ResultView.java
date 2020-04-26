@@ -6,7 +6,6 @@ import java.io.PrintStream;
 import java.text.MessageFormat;
 import java.util.List;
 
-import bowling.domain.Frame;
 import bowling.domain.FrameResult;
 import bowling.domain.Game;
 

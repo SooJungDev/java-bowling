@@ -1,18 +1,13 @@
 package bowling.view;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import bowling.domain.Board;
-import bowling.domain.FinalFrame;
 import bowling.domain.Frame;
-import bowling.domain.FrameResult;
 import bowling.domain.Game;
 import bowling.domain.NormalFrame;
 

@@ -2,7 +2,6 @@ package bowling.domain;
 
 import java.util.Scanner;
 
-import bowling.domain.State.LastFrameBowl;
 import bowling.view.ResultView;
 
 public class PlayBowling {
@@ -15,7 +14,7 @@ public class PlayBowling {
 
     public static void play(Game game, Frame frame) {
         startFrame = frame;
-        startFrame.createBoard();
+        ResultView.print(new Game(game.getUserName(), startFrame.createBoard()));
         frame = playNormalFrame(game, frame);
         playFinalFrame(game, frame);
     }
